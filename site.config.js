@@ -1,25 +1,26 @@
 const CONFIG = {
   // profile setting (required)
   profile: {
-    name: "morethanmin",
-    image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
-    role: "frontend developer",
-    bio: "I develop everything using node.",
-    email: "morethanmin.dev@gmail.com",
-    linkedin: "morethanmin",
-    github: "morethanmin",
-    instagram: "",
+    name: "tyler",
+    image: "./notion-avatar-1712706229742.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
+    role: "hopelessly academic",
+    bio: "Just a 4th year CS student lost in his own head - come stay a while!",
+    email: "tm21cy@outlook.com",
+    linkedin: "tyler-mcdonald-534504223",
+    github: "tm21cy",
+    instagram: "mcdtyler87",
   },
   projects: [
     {
-      name: `morethan-log`,
-      href: "https://github.com/morethanmin/morethan-log",
-    },
+      name: "github",
+      href: "https://github.com/tm21cy"
+    }
   ],
   // blog setting (required)
   blog: {
-    title: "morethan-log",
-    description: "welcome to morethan-log!",
+    title: "tyler's deranged rambling",
+    description: "Hooray! You've found my digital archive of feel-good/feel-bad content! Enter at your own risk!",
+    theme: "dark"
   },
 
   // CONFIG configration (required)
@@ -53,7 +54,7 @@ const CONFIG = {
     },
   },
   utterances: {
-    enable: true,
+    enable: false,
     config: {
       repo: process.env.NEXT_PUBLIC_UTTERANCES_REPO || "",
       "issue-term": "og:title",
